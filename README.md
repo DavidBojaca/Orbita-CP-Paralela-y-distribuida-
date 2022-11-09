@@ -2,25 +2,24 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-### General Info
+### General info
 ***
-Programa de medida de rendimiento en el calculo de la orbita para el planeta tierra a partir de  
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+Performance measurement program in the calculation of the orbit for the planet earth from the comparison of execution time for Python and cython. 
+The program aims to demonstrate the improvement in execution time by using cython in programs initially written in Python.
+![Image text](https://www.mundo-geo.es/uploads/s1/94/88/37/7/ilustracion-del-movimiento-de-la-tierra-alrededor-del-sol_1_1000x575.jpeg)
 ## Technologies
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+Necessary libraries for program execution:
+* [python3](https://cutt.ly/7MwNffw): Version 3.11.0 
+* [Cython](https://cython.readthedocs.io/en/latest/src/quickstart/install.html): Version mas actual
+* [Venv-python3](https://docs.python.org/3/library/venv.html): Version 3.3
 ## Installation
 ***
-A little intro about the installation. 
+Program execution. 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ make clean
+$ make all
+$ python3 prueba_tierra.py
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+You will see the results in the file that will be created named ```tierra.cvs``` 
 
