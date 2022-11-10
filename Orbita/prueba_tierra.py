@@ -61,6 +61,6 @@ for i in range (30):
 	
 	
 	
-	with open("tierra.cvs","a") as archivo:
+	with open("tierra.csv","a") as archivo:
 		archivo.write(formato_datos.format(finalPy,finalCy))
 
