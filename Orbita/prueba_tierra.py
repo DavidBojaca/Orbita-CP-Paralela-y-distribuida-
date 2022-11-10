@@ -48,7 +48,7 @@ n_steps =2000000
 #se crea un formato para la impresion sobre el fichero
 formato_datos = "{:.5f},{:.5f}\n"
 
-for i in range (2):
+for i in range (30):
 	#toma de tiempos para pyhton 
 	inicioPy = time.time()
 	py_orb.step_time(tierraPy, time_span, n_steps)
