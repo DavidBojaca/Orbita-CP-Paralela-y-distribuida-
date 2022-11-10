@@ -21,5 +21,5 @@ $ make clean
 $ make all
 $ python3 prueba_tierra.py
 ```
-You will see the results in the file that will be created named ```tierra.cvs``` 
+You will see the results in the file that will be created named ```tierra.csv``` 
 
